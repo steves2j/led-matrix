@@ -29,10 +29,12 @@
   },
   "homepage": "https://github.com/sallar/led-matrix#readme",
   "dependencies": {
-    "matrix-display-store": "^1.0.0"
+    "matrix-display-store": "file:../matrix-display-store",
+    "preact": "^10.12.0"
   },
   "devDependencies": {
     "karmatic": "^1.0.6",
+    "led-matrix": "^1.0.1",
     "typescript": "^2.8.1"
   }
 }
